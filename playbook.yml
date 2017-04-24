@@ -1,0 +1,9 @@
+- hosts: all
+  roles:
+     - role: gantsign.golang
+       become: true
+       golang_gopath: '$HOME/go'
+     - role: marvinpinto.docker
+       become: true
+     - role: Stouts.mongodb
+       become: true
