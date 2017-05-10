@@ -28,6 +28,10 @@ go get -u -v github.com/nats-io/gnatsd
 go get -u -v github.com/nats-io/nats
 go get -u -v gopkg.in/mgo.v2
 go get -u -v github.com/denisenkom/go-mssqldb
+go get -u -v github.com/tealeg/xlsx
+go get -u -v github.com/lib/pq
+go get -u -v gopkg.in/DATA-DOG/go-sqlmock.v1
+go get -u -v github.com/minio/minio-go
 
 cd $GOPATH/src/github.com/iq4health
 
