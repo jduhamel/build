@@ -15,7 +15,7 @@ BRANCH="develop"
 TAG=""
 
 libraries=(ball fault kani pubsub msgtest clog audit funky iq4app hl7 mongo cpet dicom fhir benchmarker)
-executables=(dicomimporter fhirimporter hl7listener importer flow morph orca callout deidentify router sink squeal validator xlsimporter report)
+executables=(dicomimporter fhirimporter hl7listener importer flow morph orca callout deidentify router sink squeal validator xlsimporter report loader)
 
 mkdir -p $GOPATH/src/github.com/iq4health/
 
